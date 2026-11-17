@@ -1,0 +1,1 @@
+This is a workflow to replace my workflow with ImageJ. EIA stands for Exploratory Image Analysis. 
