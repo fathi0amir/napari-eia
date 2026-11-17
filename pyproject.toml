@@ -1,7 +1,7 @@
 [project]
 name = "napari-eia"
 version = "0.1.0"
-description = "Add your description here"
+description = "ImageJ Workflow Reproduction in Napari"
 readme = "README.md"
 authors = [
     { name = "Amir Fathi", email = "fathi0amir@gmail.com" }
