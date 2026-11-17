@@ -1568,6 +1568,14 @@ wheels = [
 ]
 
 [[package]]
+name = "ipyfilechooser"
+version = "0.7.0"
+source = { git = "https://github.com/fathi0amir/ipyfilechooser2.git?rev=dev#cef973afef0724c768f9456214aa7ec9cc1ca351" }
+dependencies = [
+    { name = "ipywidgets" },
+]
+
+[[package]]
 name = "ipykernel"
 version = "7.4.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2900,6 +2908,7 @@ dependencies = [
     { name = "fastparquet" },
     { name = "h5py" },
     { name = "holoviews" },
+    { name = "ipyfilechooser" },
     { name = "jupyter" },
     { name = "matplotlib" },
     { name = "napari", extra = ["optional", "pyqt6"] },
@@ -2927,6 +2936,7 @@ requires-dist = [
     { name = "fastparquet", specifier = ">=2026.9.0" },
     { name = "h5py", specifier = ">=3.16.0" },
     { name = "holoviews", specifier = ">=1.23.2" },
+    { name = "ipyfilechooser", git = "https://github.com/fathi0amir/ipyfilechooser2.git?rev=dev" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "napari", extras = ["optional", "pyqt6"], specifier = ">=0.10.0" },

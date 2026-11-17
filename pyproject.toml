@@ -15,6 +15,7 @@ dependencies = [
     "fastparquet>=2026.9.0",
     "h5py>=3.16.0",
     "holoviews>=1.23.2",
+    "ipyfilechooser",
     "jupyter>=1.1.1",
     "matplotlib>=3.11.2",
     "napari-animation>=0.0.10",
@@ -39,3 +40,6 @@ napari-eia = "napari_eia:main"
 [build-system]
 requires = ["uv_build>=0.12.20,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv.sources]
+ipyfilechooser = { git = "https://github.com/fathi0amir/ipyfilechooser2.git", rev = "dev" }
